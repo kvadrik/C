@@ -4,6 +4,7 @@
  */
 #define _USE_MATH_DEFINES /**< required for MS Visual C */
 #include <assert.h>
+#include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -12,7 +13,7 @@
  *\f{eqnarray*}{
  x + yi &=& (x_1 + y_1i) + (x_2 + y_2i)
  x &=& x_1 + x_2
- y &=% y_1 + y_2
+ y &=& y_1 + y_2
  \f}
  * @param [in] x1 real part of the first summand
  * @param [in] y1 imaginary part of the first summand
